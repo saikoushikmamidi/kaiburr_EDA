@@ -1,6 +1,6 @@
-# 🧠 Text Classification on Consumer Complaint Dataset
+#  Text Classification on Consumer Complaint Dataset
 
-### 📘 Project Overview
+###  Project Overview
 This project focuses on building a **multi-class text classification model** that categorizes consumer complaints into specific categories such as:
 - **Credit reporting, repair, or other**
 - **Debt collection**
@@ -17,7 +17,7 @@ The complete pipeline follows a structured Machine Learning workflow:
 
 ---
 
-## 📊 1. Exploratory Data Analysis (EDA) & Feature Engineering
+##  1. Exploratory Data Analysis (EDA) & Feature Engineering
 
 The first step focuses on understanding the dataset and engineering useful text-based features.
 
@@ -35,11 +35,11 @@ The first step focuses on understanding the dataset and engineering useful text-
 - `top_words.csv` — top frequent words across the dataset  
 - `sample_with_text_features.csv` — small sample file for model prototyping
 
-📁 **Code file:** `step1_eda.py`
+ **Code file:** `step1_eda.py`
 
 ---
 
-## 🧹 2. Text Preprocessing
+##  2. Text Preprocessing
 
 Clean and normalize raw text for model training.
 
@@ -54,11 +54,11 @@ Clean and normalize raw text for model training.
 - Handling emojis and special symbols  
 - Removing rare or overly common words  
 
-📁 **Code file:** `step2_preprocessing.py`
+ **Code file:** `step2_preprocessing.py`
 
 ---
 
-## 🤖 3. Model Selection (Multi-Class Classification)
+##  3. Model Selection (Multi-Class Classification)
 
 We train and compare multiple models to identify the best-performing one.
 
@@ -69,11 +69,11 @@ We train and compare multiple models to identify the best-performing one.
 - XGBoost  
 - Transformer-based models (DistilBERT / BERT for fine-tuning)
 
-📁 **Code file:** `step3_model_selection.py`
+ **Code file:** `step3_model_selection.py`
 
 ---
 
-## ⚖️ 4. Model Performance Comparison
+##  4. Model Performance Comparison
 
 Compare models on multiple metrics to identify trade-offs.
 
@@ -87,11 +87,11 @@ Compare models on multiple metrics to identify trade-offs.
 - Confusion Matrix heatmap  
 - F1-score bar chart  
 
-📁 **Code file:** `step4_model_comparison.py`
+ **Code file:** `step4_model_comparison.py`
 
 ---
 
-## 📈 5. Model Evaluation
+##  5. Model Evaluation
 
 Evaluate the final model on test data and analyze performance.
 
@@ -101,11 +101,11 @@ Evaluate the final model on test data and analyze performance.
 - Identify misclassified examples  
 - Analyze per-class accuracy and errors  
 
-📁 **Code file:** `step5_evaluation.py`
+ **Code file:** `step5_evaluation.py`
 
 ---
 
-## 🔮 6. Prediction
+##  6. Prediction
 
 Implement a simple interface for predicting categories on new unseen text.
 
