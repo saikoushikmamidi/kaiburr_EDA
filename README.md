@@ -35,7 +35,7 @@ The first step focuses on understanding the dataset and engineering useful text-
 - `top_words.csv` — top frequent words across the dataset  
 - `sample_with_text_features.csv` — small sample file for model prototyping
 
- **Code file:** `step1_eda.py`
+ **Code file:** `EDA_Feature.py`
 
 ---
 
